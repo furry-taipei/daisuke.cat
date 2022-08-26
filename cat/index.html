@@ -1,0 +1,90 @@
+<html>
+
+<head>
+  <style>
+    body,
+    html {
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #6f4e37;
+    }
+
+    * {
+      color: white;
+    }
+
+    .title {
+      font-size: 8rem;
+      animation: title 1.2s infinite;
+    }
+
+    .border {
+      font-size: 2rem;
+    }
+
+    .border-t {
+      width: 100vw;
+      top: 0;
+      position: fixed;
+    }
+
+    .border-r {
+      height: 100vh;
+      top: 0;
+      right: 0;
+      position: fixed;
+    }
+
+    .border-l {
+      height: 100vh;
+      left: 0;
+      top: 0;
+      position: fixed;
+    }
+
+    .border-b {
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+
+    @keyframes title {
+      0% {
+        transform: rotate(0) translateY(0px);
+      }
+
+      25% {
+        transform: rotate(-20deg) translate(-64px, -128px);
+      }
+
+      50% {
+        transform: rotate(0) translateY(0px);
+      }
+
+      75% {
+        transform: rotate(20deg) translate(64px, -128px);
+      }
+
+      100% {
+        transform: rotate(0) translateY(0px);
+      }
+    }
+  </style>
+</head>
+    
+<body>
+  <div class=title>\大助貓貓/</div>
+  <marquee class="border border-t" direction=right>大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;</marquee>
+  <marquee class="border border-r" direction=down>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br></marquee>
+  <marquee class="border border-b">大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;大助貓貓&nbsp;&nbsp;&nbsp;</marquee>
+  <marquee class="border border-l" direction=up>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br>大<br>助<br>貓<br>貓<br></marquee>
+</body>
+
+</html>
